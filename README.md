@@ -1,6 +1,27 @@
 # Compilers-Principles
 CHD 2022 experiment - Compilers-Principles
 
+编程题目 1:语法高亮转换程序  
+(1) 问题描述:在我们使用的集成化编译环境(IDE)中，C/C++语言的源代码通常使用高亮语法表示，例如:
+// example.cpp  
+#include <iostream>  
+#define pi 3.1415  
+using namespace std;  
+int main()  
+{  
+  int n = 0;  
+  float a = 12.34;  
+  char ch = ‘a’;  
+  cout << "hello C++";  
+  for (int i = 0; i < 10; i++)  
+  a = n + ch;  
+  return 0;  
+}  
+但是如果我们将这段代码发布到网页中，它的高亮语法表示将消失，这样看起来非常不直观，我们希望在网页中代码仍然能保持原来的高亮语法表示。  
+(2) 输入:C/C++源代码文件，即后缀为 c/cpp 的文件。  
+(3) 输出:网页文件，即后缀为 HTML 的文件。  
+(4) 实现功能:将 C/C++源代码转换为网页文件，在浏览器中打开网页文件时，网页中显示 C/C++源代码并以高亮语法表示显示。  
+(5) 涉及知识点:词法分析。  
 
 编程题目 2: SLR(1)语法分析器实现  
 题目:
