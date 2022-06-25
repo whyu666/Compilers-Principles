@@ -1,0 +1,11 @@
+var x,y;
+bool b;
+begin
+    read(x,y); //x:=10; y:=20;
+    //or的短路计算，前为真，则表达式为真
+    if x+y<50 or x+y<20 and x+y>40 then b:=1; else b:=0;
+    print(b);
+    //and的短路计算，前为假，则表达式为假
+    if x+y>40 and x+y<20 or x+y<50 then b:=1; else b:=0;
+    print(b);
+end.

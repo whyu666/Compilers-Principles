@@ -1,0 +1,14 @@
+//打印输出矩阵
+var i,j,k;
+begin
+  k:=0;
+  for(j:=0;j<5;j:=j+1)
+  begin
+    for(i:=0;i<5;i:=i+1)
+    begin
+      k:=k+1;
+      print(k);
+    end;
+    print();
+  end;
+end.
